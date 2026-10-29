@@ -1,9 +1,11 @@
+import { DollarSign } from "lucide";
+import { DollarSignIcon } from "lucide-react";
 import React from "react";
 
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -72,8 +74,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="navbar-end text-2xl font-medium flex items-center">
+          <span className="pb-1">1000</span>
+        <DollarSignIcon className="size-6" />
         </div>
       </div>
     </div>

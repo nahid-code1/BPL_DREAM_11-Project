@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batter",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1300000,
+    "rating": 9.2,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/348144.png"
+  },
+  {
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1000000,
+    "rating": 9.0,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/1159710.png"
+  },
+  {
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "role": "Wicket-keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 800000,
+    "rating": 8.8,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/323389.png"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 900000,
+    "rating": 9.1,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/56143.png"
+  },
+  {
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicket-keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 650000,
+    "rating": 8.5,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/56025.png"
+  },
+  {
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "role": "Wicket-keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 600000,
+    "rating": 8.0,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/536936.png"
+  },
+  {
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batter",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": 1100000,
+    "rating": 9.0,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/219889.png"
+  },
+  {
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batter",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": 1000000,
+    "rating": 9.3,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/267192.png"
+  },
+  {
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1400000,
+    "rating": 9.4,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/489889.png"
+  },
+  {
+    "name": "Travis Head",
+    "country": "Australia",
+    "role": "Batter",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 950000,
+    "rating": 8.8,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/530011.png"
+  },
+  {
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batter",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1000000,
+    "rating": 9.4,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/303669.png"
+  },
+  {
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1200000,
+    "rating": 9.2,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/311158.png"
+  },
+  {
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batter",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 1500000,
+    "rating": 9.8,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/253802.png"
+  },
+  {
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batter",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1200000,
+    "rating": 9.3,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/34102.png"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1400000,
+    "rating": 9.8,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/625383.png"
+  },
+  {
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1100000,
+    "rating": 8.7,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/625371.png"
+  },
+  {
+    "name": "Ravindra Jadeja",
+    "country": "India",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 1000000,
+    "rating": 9.2,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/234675.png"
+  },
+  {
+    "name": "Shubman Gill",
+    "country": "India",
+    "role": "Batter",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 950000,
+    "rating": 8.9,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/1070173.png"
+  },
+  {
+    "name": "Rishabh Pant",
+    "country": "India",
+    "role": "Wicket-keeper",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 900000,
+    "rating": 8.8,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/931581.png"
+  },
+  {
+    "name": "KL Rahul",
+    "country": "India",
+    "role": "Wicket-keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 850000,
+    "rating": 8.6,
+    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/422108.png"
+  }
+]
