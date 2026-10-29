@@ -8,11 +8,17 @@ const fetchPlayers = async () => {
   return res.json();
 };
 function App() {
-  const playersPromise = fetchPlayers()
+  const playersPromise = fetchPlayers();
   return (
     <>
       <Navbar></Navbar>
-      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+      <Suspense
+        fallback={
+          <div className="flex min-h-[80vh] items-center justify-center">
+            <span className="item loading loading-bars loading-xl"></span>
+          </div>
+        }
+      >
         <Players playersPromise={playersPromise}></Players>
       </Suspense>
     </>

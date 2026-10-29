@@ -9,26 +9,7 @@
     "rating": 9.2,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/348144.png"
   },
-  {
-    "name": "Shaheen Afridi",
-    "country": "Pakistan",
-    "role": "Bowler",
-    "battingStyle": "Left-hand bat",
-    "bowlingStyle": "Left-arm fast",
-    "price": 1000000,
-    "rating": 9.0,
-    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/1159710.png"
-  },
-  {
-    "name": "Mohammad Rizwan",
-    "country": "Pakistan",
-    "role": "Wicket-keeper",
-    "battingStyle": "Right-hand bat",
-    "bowlingStyle": "None",
-    "price": 800000,
-    "rating": 8.8,
-    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/323389.png"
-  },
+
   {
     "name": "Shakib Al Hasan",
     "country": "Bangladesh",
@@ -49,16 +30,7 @@
     "rating": 8.5,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/56025.png"
   },
-  {
-    "name": "Litton Das",
-    "country": "Bangladesh",
-    "role": "Wicket-keeper",
-    "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
-    "price": 600000,
-    "rating": 8.0,
-    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/536936.png"
-  },
+
   {
     "name": "David Warner",
     "country": "Australia",
@@ -179,16 +151,7 @@
     "rating": 8.9,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/1070173.png"
   },
-  {
-    "name": "Rishabh Pant",
-    "country": "India",
-    "role": "Wicket-keeper",
-    "battingStyle": "Left-hand bat",
-    "bowlingStyle": "None",
-    "price": 900000,
-    "rating": 8.8,
-    "image": "https://a.espncdn.com/i/headshots/cricket/players/full/931581.png"
-  },
+
   {
     "name": "KL Rahul",
     "country": "India",
