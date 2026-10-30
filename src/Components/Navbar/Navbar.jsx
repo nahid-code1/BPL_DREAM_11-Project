@@ -1,6 +1,4 @@
-import { DollarSign } from "lucide";
 import { DollarSignIcon } from "lucide-react";
-import React from "react";
 
 const Navbar = ({ amount }) => {
   return (
@@ -26,7 +24,7 @@ const Navbar = ({ amount }) => {
                 />{" "}
               </svg>
             </div>
-            <ul
+            {/* <ul
               tabIndex={-1}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
@@ -47,12 +45,12 @@ const Navbar = ({ amount }) => {
               <li>
                 <a>Item 3</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">Dream11</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          {/* <ul className="menu menu-horizontal px-1">
             <li>
               <a>Item 1</a>
             </li>
@@ -72,11 +70,11 @@ const Navbar = ({ amount }) => {
             <li>
               <a>Item 3</a>
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <div className="navbar-end text-2xl font-medium flex items-center">
+        <div className="navbar-end text-xl md:text-2xl font-medium flex items-center">
           <span className="">{amount}</span>
-          <DollarSignIcon className="size-6" />
+          <DollarSignIcon className="size-5 md:size-6" />
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@ import { Suspense, useState } from "react";
 import "./App.css";
 import Players from "./Components/HomePage/Players";
 import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/HomePage/Hero";
+import Footer from "./Components/HomePage/Footer";
 
 const fetchPlayers = async () => {
   const res = await fetch("/data.json");
@@ -15,6 +17,7 @@ function App() {
   return (
     <>
       <Navbar amount={amount}></Navbar>
+      <Hero></Hero>
       <Suspense
         fallback={
           <div className="flex min-h-[80vh] items-center justify-center">
@@ -28,6 +31,7 @@ function App() {
           setAmount={setAmount}
         ></Players>
       </Suspense>
+      <Footer></Footer>
     </>
   );
 }

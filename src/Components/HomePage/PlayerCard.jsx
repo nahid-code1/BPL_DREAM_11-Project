@@ -1,5 +1,6 @@
 import { Flag } from "lucide-react";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const PlayerCard = ({
   player,
@@ -13,8 +14,9 @@ const PlayerCard = ({
     const newAmont = amount - player.price;
     if (newAmont >= 0) {
       setAmount(amount - player.price);
+      toast.success(`${player.name} selected successfully`);
     } else {
-      alert("not enoung amount");
+      toast.error("Unable to select due to insufficient balance");
       return;
     }
     setSelected(true);

@@ -8,8 +8,8 @@ const Players = ({ playersPromise, amount, setAmount }) => {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between items-center gap-4 py-8 ">
-        <h4 className=" text-lg ml-2 md:ml-0 md:text-2xl">
+      <div className="space-y-2 md:space-y-0 md:flex justify-between items-center gap-4 py-8 ">
+        <h4 className=" text-lg ml-2  md:text-2xl">
           {selectedType === "available" ? (
             <h2>Available Players : {data.length}</h2>
           ) : (
@@ -18,7 +18,7 @@ const Players = ({ playersPromise, amount, setAmount }) => {
             </h2>
           )}
         </h4>
-        <div className="">
+        <div className="flex justify-center pt-4 md:pt-0">
           <button
             onClick={() => setSelectedType("available")}
             className={`${selectedType === "available" ? "bg-black text-white" : ""} btn btn-soft rounded-r-none rounded-l-xl`}
@@ -43,7 +43,12 @@ const Players = ({ playersPromise, amount, setAmount }) => {
             setAmount={setAmount}
           ></AvailablePlayers>
         ) : (
-          <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>
+          <SelectedPlayers
+            amount={amount}
+            setAmount={setAmount}
+            selectedPlayers={selectedPlayers}
+            setSelectedPlayers={setSelectedPlayers}
+          ></SelectedPlayers>
         )}
       </div>
     </div>
