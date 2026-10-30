@@ -1,7 +1,7 @@
 # Project Name
 
 ## 🔗 Live Link
-[Live Project Link](https://assingnmnet11.web.app/)
+[Live Project Link](https://mybpl-dream-11.netlify.app/)
 
 ---
 
