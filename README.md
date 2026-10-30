@@ -6,7 +6,7 @@
 ---
 
 ## 📖 Project Overview
-This is a frontend web application developed as part of the Programming Hero Level-1 course.  
+This project is a frontend single page web application built by react.
 The project focuses on responsive UI, clean design, and interactive functionality.
 
 ---
