@@ -5,18 +5,17 @@
     "role": "Batter",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 1300000,
+    "price": 1250000,
     "rating": 9.2,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/348144.png"
   },
-
   {
     "name": "Shakib Al Hasan",
     "country": "Bangladesh",
     "role": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 900000,
+    "price": 1200000,
     "rating": 9.1,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/56143.png"
   },
@@ -26,18 +25,17 @@
     "role": "Wicket-keeper",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 650000,
+    "price": 850000,
     "rating": 8.5,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/56025.png"
   },
-
   {
     "name": "David Warner",
     "country": "Australia",
     "role": "Batter",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 1100000,
+    "price": 1150000,
     "rating": 9.0,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/219889.png"
   },
@@ -47,7 +45,7 @@
     "role": "Batter",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 1000000,
+    "price": 1350000,
     "rating": 9.3,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/267192.png"
   },
@@ -67,7 +65,7 @@
     "role": "Batter",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 950000,
+    "price": 1000000,
     "rating": 8.8,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/530011.png"
   },
@@ -77,7 +75,7 @@
     "role": "Batter",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 1000000,
+    "price": 1400000,
     "rating": 9.4,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/303669.png"
   },
@@ -87,7 +85,7 @@
     "role": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 1200000,
+    "price": 1250000,
     "rating": 9.2,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/311158.png"
   },
@@ -97,7 +95,7 @@
     "role": "Batter",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 1500000,
+    "price": 1650000,
     "rating": 9.8,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/253802.png"
   },
@@ -107,7 +105,7 @@
     "role": "Batter",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 1200000,
+    "price": 1350000,
     "rating": 9.3,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/34102.png"
   },
@@ -117,7 +115,7 @@
     "role": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 1400000,
+    "price": 1650000,
     "rating": 9.8,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/625383.png"
   },
@@ -127,7 +125,7 @@
     "role": "All-rounder",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 1100000,
+    "price": 950000,
     "rating": 8.7,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/625371.png"
   },
@@ -137,7 +135,7 @@
     "role": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 1000000,
+    "price": 1250000,
     "rating": 9.2,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/234675.png"
   },
@@ -147,18 +145,17 @@
     "role": "Batter",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 950000,
+    "price": 1050000,
     "rating": 8.9,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/1070173.png"
   },
-
   {
     "name": "KL Rahul",
     "country": "India",
     "role": "Wicket-keeper",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 850000,
+    "price": 900000,
     "rating": 8.6,
     "image": "https://a.espncdn.com/i/headshots/cricket/players/full/422108.png"
   }

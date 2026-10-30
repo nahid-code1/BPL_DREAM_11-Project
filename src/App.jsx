@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Players from "./Components/HomePage/Players";
 import Navbar from "./Components/Navbar/Navbar";
@@ -7,11 +7,14 @@ const fetchPlayers = async () => {
   const res = await fetch("/data.json");
   return res.json();
 };
+
 function App() {
   const playersPromise = fetchPlayers();
+
+  const [amount, setAmount] = useState(10000000);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar amount={amount} setAmount={setAmount}></Navbar>
       <Suspense
         fallback={
           <div className="flex min-h-[80vh] items-center justify-center">
@@ -19,7 +22,11 @@ function App() {
           </div>
         }
       >
-        <Players playersPromise={playersPromise}></Players>
+        <Players
+          playersPromise={playersPromise}
+          amount={amount}
+          setAmount={setAmount}
+        ></Players>
       </Suspense>
     </>
   );

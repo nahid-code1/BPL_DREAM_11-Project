@@ -1,6 +1,18 @@
 import { Flag } from "lucide-react";
+import { useState } from "react";
 
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({ player, amount, setAmount }) => {
+  const [selected, setSelected] = useState(false);
+  const handleSelected = () => {
+    const newAmont = amount - player.price;
+    if (newAmont >= 0) {
+      setAmount(amount - player.price);
+    } else {
+      alert("not enoung amount");
+      return;
+    }
+    setSelected(true);
+  };
   return (
     <div>
       <div className="card bg-base-100 shadow-lg">
@@ -23,8 +35,14 @@ const PlayerCard = ({ player }) => {
             <h5 className="w-fit ">{player.bowlingStyle}</h5>
           </div>
           <div className="flex justify-between items-center w-full text-md font-medium py-2">
-            <h5 className="w-fit ">Price: {player.price}</h5>
-            <button className="btn btn-dash">Choose Player</button>
+            <h5 className="w-fit ">Price: {player.price} $</h5>
+            <button
+              className="btn btn-dash"
+              onClick={handleSelected}
+              disabled={selected}
+            >
+              {selected ? "Selected" : "Choose Player"}
+            </button>
           </div>
         </div>
       </div>
