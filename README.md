@@ -12,7 +12,7 @@ The project focuses on responsive UI, clean design, and interactive functionalit
 ---
 
 ## Screenshot
-![Project Screenshot](./Screenshot.png)
+![Project Screenshot](./BPL_screenshot-1.png)
 
 ---
 
