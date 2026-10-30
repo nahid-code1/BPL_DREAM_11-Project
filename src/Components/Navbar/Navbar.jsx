@@ -75,8 +75,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end text-2xl font-medium flex items-center">
-          <span className="pb-1">1000</span>
-        <DollarSignIcon className="size-6" />
+          <span className="">1000</span>
+          <DollarSignIcon className="size-6" />
         </div>
       </div>
     </div>
