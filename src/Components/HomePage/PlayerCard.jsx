@@ -1,7 +1,13 @@
 import { Flag } from "lucide-react";
 import { useState } from "react";
 
-const PlayerCard = ({ player, amount, setAmount }) => {
+const PlayerCard = ({
+  player,
+  amount,
+  setAmount,
+  setSelectedPlayers,
+  selectedPlayers,
+}) => {
   const [selected, setSelected] = useState(false);
   const handleSelected = () => {
     const newAmont = amount - player.price;
@@ -12,6 +18,7 @@ const PlayerCard = ({ player, amount, setAmount }) => {
       return;
     }
     setSelected(true);
+    setSelectedPlayers([...selectedPlayers, player]);
   };
   return (
     <div>

@@ -1,7 +1,16 @@
-import React from "react";
+import SelectedPlayerCard from "./SelectedPlayerCard";
 
-const SelectedPlayers = () => {
-  return <div>Selected Players</div>;
+const SelectedPlayers = ({ selectedPlayers }) => {
+  console.log(selectedPlayers);
+  return (
+    <div className="">
+      {selectedPlayers.map((selectedPlayer) => (
+        <SelectedPlayerCard
+          selectedPlayer={selectedPlayer}
+        ></SelectedPlayerCard>
+      ))}
+    </div>
+  );
 };
 
 export default SelectedPlayers;

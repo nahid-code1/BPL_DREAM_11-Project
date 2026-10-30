@@ -14,7 +14,7 @@ function App() {
   const [amount, setAmount] = useState(10000000);
   return (
     <>
-      <Navbar amount={amount} setAmount={setAmount}></Navbar>
+      <Navbar amount={amount}></Navbar>
       <Suspense
         fallback={
           <div className="flex min-h-[80vh] items-center justify-center">
