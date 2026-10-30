@@ -9,15 +9,15 @@ const Players = ({ playersPromise, amount, setAmount }) => {
   return (
     <div className="container mx-auto">
       <div className="space-y-2 md:space-y-0 md:flex justify-between items-center gap-4 py-8 ">
-        <h4 className=" text-lg ml-2  md:text-2xl">
+        <div className=" text-lg ml-2  md:text-2xl">
           {selectedType === "available" ? (
-            <h2>Available Players : {data.length}</h2>
+            <h5>Available Players : {data.length}</h5>
           ) : (
-            <h2>
+            <h5>
               Selected players ({selectedPlayers.length}/{data.length})
-            </h2>
+            </h5>
           )}
-        </h4>
+        </div>
         <div className="flex justify-center pt-4 md:pt-0">
           <button
             onClick={() => setSelectedType("available")}

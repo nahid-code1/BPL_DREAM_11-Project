@@ -9,10 +9,9 @@ const fetchPlayers = async () => {
   const res = await fetch("/data.json");
   return res.json();
 };
+const playersPromise = fetchPlayers();
 
 function App() {
-  const playersPromise = fetchPlayers();
-
   const [amount, setAmount] = useState(10000000);
   return (
     <>
