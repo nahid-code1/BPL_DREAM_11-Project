@@ -7,7 +7,8 @@
 
 ## 📖 Project Overview
 This project is a frontend single page web application built by react.
-The project focuses on responsive UI, clean design, and interactive functionality.
+The project focuses on responsive UI, clean design, and interactive functionality. The project is about picking a dream  X-11 for BPL with a competitive budget.
+User can pick their preferred player and pay the required price for specific player.
 
 ---
 
