@@ -1,10 +1,10 @@
-import React, { use, useState } from "react";
+import { use, useState } from "react";
 import AvailablePlayers from "./AvailablePlayers";
 import SelectedPlayers from "./SelectedPlayers";
 
 const Players = ({ playersPromise, amount, setAmount }) => {
-  const data = use(playersPromise);
   const [selectedType, setSelectedType] = useState("available");
+  const data = use(playersPromise);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   return (
     <div className="container mx-auto">

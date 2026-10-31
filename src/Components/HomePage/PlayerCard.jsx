@@ -1,5 +1,5 @@
 import { Flag } from "lucide-react";
-import { useState } from "react";
+
 import { toast } from "react-toastify";
 
 const PlayerCard = ({
@@ -9,8 +9,11 @@ const PlayerCard = ({
   setSelectedPlayers,
   selectedPlayers,
 }) => {
-  const [selected, setSelected] = useState(false);
+  const selected = selectedPlayers.some(
+    (selectedPlayer) => selectedPlayer.name === player.name,
+  );
   const handleSelected = () => {
+    if (selected) return;
     const newAmont = amount - player.price;
     if (newAmont >= 0) {
       setAmount(amount - player.price);
@@ -19,9 +22,10 @@ const PlayerCard = ({
       toast.error("Unable to select due to insufficient balance");
       return;
     }
-    setSelected(true);
+
     setSelectedPlayers([...selectedPlayers, player]);
   };
+
   return (
     <div>
       <div className="card bg-base-100 shadow-lg">
