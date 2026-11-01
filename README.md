@@ -43,7 +43,7 @@ User can pick their preferred player and pay the required price for specific pla
 ##  How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/your-username/BPL_DREAM_11-Project.git
 cd project-name
 npm install
 npm run dev
